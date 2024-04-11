@@ -69,6 +69,7 @@ button{
 
 button:hover{
     background-color:#DEEBFF;
+    cursor: pointer;
 }
 
 /****** navbar ***********/
