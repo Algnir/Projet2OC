@@ -31,7 +31,6 @@ a {
     text-decoration: none;
 }
 
-
 .section-title {
     margin: 0;
     font-size: 22px;
@@ -67,6 +66,7 @@ button{
     background-color: white;
     font-weight:bold;
 }
+
 button:hover{
     background-color:#DEEBFF;
 }
@@ -112,6 +112,9 @@ font-weight:bold;
 text-align:center;
 font-size:16px;
 width:18%;
+border:0;
+border-top: solid #F2F2F2;
+border-bottom: solid #F2F2F2;
 }
 
 input[type="text"]:focus {
@@ -119,9 +122,16 @@ input[type="text"]:focus {
     border: none;
 }
 
+input[type="text"]:active{
+    border:0;
+   border-top: solid #F2F2F2;
+   border-bottom: solid #F2F2F2;
+}
+
 .fa-magnifying-glass{
     display:none;
 }
+
 .circle-container {/****** cercle de la lettre info ***********/
     width: 2px;
     height: 2px;
@@ -159,19 +169,6 @@ input[type="text"]:focus {
     background-color: #0065FC;
     color:white;
 }
-
-#textrecherche{
-   border:0;
-   border-top: solid #F2F2F2;
-   border-bottom: solid #F2F2F2;
-}
-
-#textrecherche:active{
-    border:0;
-   border-top: solid #F2F2F2;
-   border-bottom: solid #F2F2F2;
-}
-
 
 form{
     display:flex;
@@ -218,6 +215,7 @@ width:100%
     justify-content: space-between;
     align-items: center;
 }
+
 .hebergements-cards {
     display: flex;
     flex-direction: column;
@@ -317,6 +315,7 @@ width:100%
 .activite{
  margin-top:30px;
 }
+
 .activite section {
     border-radius: 20px;
     box-sizing: border-box;
@@ -364,8 +363,6 @@ width:100%
 .activite-cards .card-title {
  margin:15px;
 }
-
-
 
 /* Footer */
 footer{
@@ -547,15 +544,16 @@ input[type="text"] {
     font-size:15px;
     text-align:justify;
 }
+
 button .fa-solid {
     padding: 0 7.5px 0 5px;
     font-size: 18px;
 }
+
 .bouton-filtre p{
     display:flex;
     justify-content: space-around;
 }
-
 
 .hebergements-and-populaires {
     display: flex;
@@ -569,8 +567,6 @@ button .fa-solid {
 
 }
 
-
-
 .populaires {
     width: 100%;
 }
@@ -578,7 +574,6 @@ button .fa-solid {
 .populaires section {
     background-color: var(--main-bg-color);
 }
-
 
 .hebergements-and-populaires .hebergements {
     background-color: white;
