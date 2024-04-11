@@ -89,7 +89,7 @@ nav a {
     margin-left: 50px;
 }
 
-nav #hebergements { /* couleur de la page actif en exemple hebergement */
+.lien-actif { /* couleur de la page actif en exemple hebergement */
    border-top: solid var(--main-color);
    color: var(--main-color);
 }
@@ -470,7 +470,7 @@ footer a{
 
     }
 
-    nav #hebergements { /****** couleur de la page actif en exemple hebergement ***********/
+    .lien-actif { /****** couleur de la page actif en exemple hebergement ***********/
         border-bottom: solid var(--main-color);
         color: var(--main-color);
         border-top:none;
