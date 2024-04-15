@@ -219,9 +219,14 @@ width:100%
 
 .hebergements-cards {
     display: flex;
-    flex-direction: column;
+    flex-direction: row;
     justify-content: space-between;
     margin:20px 0 20px 0;
+    flex-wrap:wrap;
+}
+
+.hebergements-cards a{
+    width:33%
 }
 
 .hebergements-cards .card {
@@ -587,6 +592,9 @@ button .fa-solid {
     margin-top: 10px;
 }
 
+.hebergements-cards a {
+    width: 100%;
+}
 .cards-row {
     flex-direction: column;   
 }
