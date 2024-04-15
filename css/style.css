@@ -221,7 +221,6 @@ button .fa-solid{
 .hebergements-cards .card {
     display: flex;
     flex-direction:column;
-    margin-top: 33px;
     margin:15px;
     height:80%;
 }
@@ -232,11 +231,12 @@ button .fa-solid{
 }
 
 .hebergements-cards .card-content {
-    padding-left: 15px;
+    padding: 0 0 5px 15px;
     display: flex;
     flex-direction: column;
     justify-content: space-between;
     box-sizing: border-box;
+    height:0%;
 }
 
 .hebergements-cards .card-title {
