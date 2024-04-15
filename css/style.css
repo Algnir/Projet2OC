@@ -184,6 +184,7 @@ button .fa-solid{
 .hebergements-and-populaires {
     display: flex;
     justify-content: space-between;
+    margin:10px;
 }
 
 .hebergements-and-populaires section {
@@ -197,7 +198,6 @@ button .fa-solid{
 .hebergements {
     width: 65%;
     display:block;
-    margin-top: 10px;
 }
 
 .hebergements-title {
