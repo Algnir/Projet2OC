@@ -480,6 +480,10 @@ footer a{
 
 /****** filtres ***********/
 
+.titre {
+    margin: 10px;
+}
+
 .filtre-hebergements{
     display:flex;
     flex-direction:column;
@@ -487,7 +491,7 @@ footer a{
 
 button .fa-magnifying-glass{
     display: block;
-    font-size:16px;
+    font-size:18px;
     color:white;
     padding:10px;
 }
@@ -525,24 +529,35 @@ input[type="text"] {
     text-align:left;
     width:100%;
 }
+
+p.titre-filtre {
+    margin-left: 15px;
+}
+
 .filtres p {
     display:flex;
     flex-wrap:wrap;
-    font-size:20px;
+    font-size:18px;
+}
+
+div .bouton-filtre {
+    padding: 0px;
 }
 
 .filtres button {
-    width:46.5%;
+    width:47%;
     margin-top:12.5px;
     border:solid var(--main-bg-color) 2px;
     padding: 12.5px 10px 12.5px 10px;
-    font-size:15px;
+    font-size:14px;
     text-align:justify;
+    margin-left:0;
+    border-radius:25px;
 }
+
 
 button .fa-solid {
     padding: 0 7.5px 0 5px;
-    font-size: 18px;
 }
 
 .bouton-filtre p{
