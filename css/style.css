@@ -86,7 +86,7 @@ nav img {/* décalage et redimenssionnant image navbar */
 }
   
 nav a {
-    padding-top:9.0px; /* permet le décalge pour avoir la border top du lien de la navbar */
+    padding-top:8.0px; /* permet le décalge pour avoir la border top du lien de la navbar */
     margin-left: 50px;
 }
 
