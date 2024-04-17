@@ -552,6 +552,8 @@ button .fa-solid {
     justify-content: space-around;
 }
 
+/****** Hebergements And Populaires ***********/
+
 .hebergements-and-populaires {
     display: flex;
     justify-content: space-between;
@@ -594,6 +596,8 @@ button .fa-solid {
     font-size: 18px;
 }
 
+/****** Activite ***********/
+
 .activite section{
     padding:10px;
 }
@@ -619,6 +623,8 @@ button .fa-solid {
 .activite .card-content {
     height: auto;
 }
+
+/******Footer ***********/
 
 footer {
     flex-direction:column;
