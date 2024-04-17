@@ -514,7 +514,6 @@ form{
 input[type="text"] {
     font-weight: bold;
     text-align: justify;
-    font-size: 20px;
     width: 100%;
     padding-left:20px;
 }
@@ -530,7 +529,7 @@ input[type="text"] {
 .filtres p {
     display:flex;
     flex-wrap:wrap;
-    font-size:20px;
+    font-size:18px;
 }
 
 .filtres button {
