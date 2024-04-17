@@ -121,6 +121,8 @@ border-bottom: solid var(--main-bg-color);
 input[type="text"]:focus {
     outline: none;
     border: none;
+    border-top: solid var(--main-bg-color);
+    border-bottom: solid var(--main-bg-color);
 }
 
 input[type="text"]:active{
