@@ -568,8 +568,8 @@ button .fa-solid {
 
 /****** Hebergements And Populaires ***********/
 
-.section-title {
-    margin: 10px;
+.hebergements-and-populaires .section-title {
+    margin: 15px;
 }
 
 .hebergements-and-populaires {
@@ -628,6 +628,10 @@ button .fa-solid {
 }
 
 /****** Activite ***********/
+
+.activite .section-title {
+    margin: 15px;
+}
 
 .activite section{
     padding:10px;
