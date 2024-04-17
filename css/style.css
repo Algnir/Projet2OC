@@ -447,6 +447,14 @@ footer a{
         width: 100%;
         padding:0;
     }
+
+    p {
+        font-size: 14px;
+    }
+
+    .section-title {
+        font-size: 20px;
+    }
 /****** nav bar ***********/
     nav{
         flex-direction:column;
@@ -514,9 +522,8 @@ button .fa-magnifying-glass{
 }
 
 input[type="text"] {
-    font-weight: bold;
     text-align: justify;
-    font-size: 20px;
+    font-size: 16px;
     width: 80%;
     padding-left:20px;
     margin-right:20px;
