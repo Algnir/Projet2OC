@@ -484,6 +484,7 @@ footer a{
         width:50%;
         text-align:center;
         padding:15px;
+        border-bottom: solid var(--main-bg-color);   
     }
 
 /****** filtres ***********/
